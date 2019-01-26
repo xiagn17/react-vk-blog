@@ -1,0 +1,29 @@
+@import "../../css/mixins";
+
+.navigation {
+  .flex();
+  flex-direction: row;
+
+  button {
+    border: grey 1px solid;
+    border-radius: 20vh;
+    width: 50px;
+    height: 40px;
+    margin: 0 2vw;
+    margin-bottom: 5vh;
+    font-size: 17px;
+
+    &:hover {
+      border-color: black;
+    }
+
+  }
+
+}
+
+
+@media (max-width: 575px) {
+  .navigation button {
+    margin-bottom: 3vh;
+  }
+}

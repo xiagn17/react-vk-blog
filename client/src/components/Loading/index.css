@@ -1,0 +1,28 @@
+@keyframes alwaysRotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.blackout {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.3);
+}
+.blackout i {
+  color: white;
+  font-size: 48px;
+  animation: alwaysRotate;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+/*# sourceMappingURL=index.css.map */

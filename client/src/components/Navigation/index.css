@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-direction: row;
+}
+.navigation button {
+  border: grey 1px solid;
+  border-radius: 20vh;
+  width: 50px;
+  height: 40px;
+  margin: 0 2vw;
+  margin-bottom: 5vh;
+  font-size: 17px;
+}
+.navigation button:hover {
+  border-color: black;
+}
+@media (max-width: 575px) {
+  .navigation button {
+    margin-bottom: 3vh;
+  }
+}
+/*# sourceMappingURL=index.css.map */

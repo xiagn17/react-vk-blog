@@ -1,0 +1,15 @@
+.article .showMore {
+  margin-top: 25px;
+  background: #e0e6ed;
+  border-radius: 20vh;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  transition: 0.25s;
+}
+.article .showMore:hover {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

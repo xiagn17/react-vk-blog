@@ -1,0 +1,47 @@
+@import "../../css/mixins";
+
+
+.content .wrapper-article {
+  background: white;
+  border: 1px solid @btn-border;
+  padding: 75px 100px;
+  margin-bottom: 50px;
+
+}
+
+
+
+
+@media (max-width: 991px) {
+  .content .wrapper-article {
+    padding: 50px 50px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content .wrapper-article {
+    margin-bottom: 30px;
+
+    .article-main header{
+      h2 {
+        font-size: 1.6rem;
+      }
+      span {
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .content .wrapper-article {
+    padding: 15px 10px;
+
+    .article-main header {
+      h2 {
+        font-size: 1.45rem;
+      }
+    }
+  }
+}

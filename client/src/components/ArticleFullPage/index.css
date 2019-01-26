@@ -1,0 +1,50 @@
+.wrapper-fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #f9fafc;
+  z-index: 1;
+  overflow-y: auto;
+  opacity: 0;
+  transition: 1s;
+}
+.wrapper-fade-relative {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper-fade-relative .closeArticle {
+  position: absolute;
+  bottom: 0;
+  font-size: 48px;
+  opacity: 0.5;
+  z-index: 2;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+.wrapper-fade-relative .closeArticle:hover {
+  opacity: 1;
+}
+.wrapper-fade .article-main {
+  background: transparent;
+  padding: 45px 20px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 100%;
+}
+.wrapper-fade .article-main article {
+  max-height: 80%;
+}
+.wrapper-fade .article-main article .img {
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .wrapper-fade .article-main header span {
+    margin: 5px 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */
