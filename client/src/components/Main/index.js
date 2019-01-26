@@ -53,7 +53,7 @@ class Main extends Component {
                 return {
                     cache: {},
                     page: 1,
-                    count: ++prevState.count
+                    count: null
                 }
             })
         })
